@@ -29,7 +29,6 @@ body {
 #bio h4 {
   margin: 0;
   padding: 0;
-  /*width: 300px;*/
   float: right;
   text-align: justify;
   line-height: 1.4;
@@ -43,13 +42,10 @@ body {
   margin: 40px 20px 0 20px;
   background-color: white;
   box-shadow: 0 3px 5px gray;
-  /*width: 400px;
-  height: 550px;*/
 }
 #logos {
-  margin: 0 25% 0 25%;
+  margin: 0 20% 0 20%;
 }
-
 #javaScript-logo {
   border-radius: 5px;
   width: 80px;
@@ -90,17 +86,22 @@ body {
 }
 
 #requirejs-logo {
-  width: 90px;
+  width: 80px;
   margin: 10px;
 }
 #requirejs-logo:hover {
-  width: 100px;
+  width: 90px;
   margin: 10px;
 }
 
-#nodejs-logo{
+#nodejs-logo {
   border-radius: 5px;
   width: 200px;
+  margin: 10px;
+}
+#nodejs-logo:hover {
+  border-radius: 5px;
+  width: 210px;
   margin: 10px;
 }
 
@@ -112,10 +113,34 @@ body {
   width: 210px;
   margin: 10px;
 }
+
+#bootstrap-logo {
+  width: 80px;
+  margin: 10px;
+}
+#bootstrap-logo:hover {
+  width: 90px;
+  margin: 10px;
+}
+
+#handlebars-logo {
+  width: 80px;
+  margin: 10px;
+}
+#handlebars-logo:hover {
+  width: 90px;
+  margin: 10px;
+}
 /*  projects section  */
 #projects {
+  padding: 0;
   margin: 40px 20px 0 20px;
   background-color: white;
   height: 350px;
   box-shadow: 0 3px 5px gray;
+}
+#instaRoute {
+  border: 3px solid gray;
+  width: 400px;
+  margin: 10px;
 }
