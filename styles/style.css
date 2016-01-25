@@ -11,6 +11,9 @@ body {
 .navbar-default {
   margin: 0;
 }
+.nav-links {
+  font-size: 18px;
+}
 .stephanie-goldstein {
   margin: 0;
   font-size: 25px;
@@ -177,8 +180,14 @@ padding: 0;
   margin: 0px auto;
   position: relative;
   line-height: 1.4em;
-  top: 150px;
+  top: 130px;
   font-size: 18px;
+  color: black;
+  /*color: #EDEDED;*/
+}
+.section-links {
+  color: black;
+  text-decoration: underline;
 }
 .cat {
   width: 100%;
@@ -187,17 +196,46 @@ padding: 0;
   background-position: 50% 51%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: auto 40%;
+  background-size: auto 30%;
 }
 .cat-f00 {
   background-image: url(./images/grumpyCat_f000.png);
-  background-color: #FF4D4D;
+  background-color: #880E4F;
 }
 .cat-f01 {
   background-image: url(./images/grumpyCat_f001.png);
-  background-color: #FF6A4D;
+  background-color: #AD1457;
 }
 .cat-f02 {
   background-image: url(./images/grumpyCat_f002.png);
-  background-color: #FF894D;
+  background-color: #C2185B;
 }
+.cat-f03 {
+  background-image: url(./images/grumpyCat_f003.png);
+  background-color: #D81B60;
+}
+.cat-f04 {
+  background-image: url(./images/grumpyCat_f004.png);
+  background-color: #E91E63;
+}
+.cat-f05 {
+  background-image: url(./images/grumpyCat_f005.png);
+  background-color: #EC407A;
+}
+.cat-f06 {
+  background-image: url(./images/grumpyCat_f006.png);
+  background-color: #F06292;
+}
+.cat-f07 {
+  background-image: url(./images/grumpyCat_f007.png);
+  background-color: #FF80AB;
+}
+.cat-f08 {
+  background-image: url(./images/grumpyCat_f008.png);
+  background-color: #F50057;
+}
+.cat-f09 {
+  background-image: url(./images/grumpyCat_f009.png);
+  background-color: #C51162;
+}
+
