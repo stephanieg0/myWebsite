@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>codebystephanie</title>
+    <title>codebyStephanie</title>
     <!--bootstrap link-->
     <link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap-social/bootstrap-social.css">
@@ -11,7 +11,8 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
   </head>
 
-  <body>
+  <body ng-app="codebyStephanie">
+
     <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -22,98 +23,27 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand stephanie-goldstein" href="#">Stephanie Goldstein</a>
+        <a class="navbar-brand stephanie-goldstein" href="/#/codebyStephanie/home">Stephanie Goldstein</a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a class="nav-links" href="#">About</a></li>
-            <li><a class="nav-links" href="#">Work</a></li>
+            <li><a class="nav-links" href="/#/codebyStephanie/work">Work</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
-    <!--Home content-->
-    <div class="container-fluid">
-      <div class="section">
-        <div class="cat cat-f00">
-          <h1 class="section-text">Hi! My name is Stephanie Goldstein!</h1>
-        </div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f01">
-          <h1 class="section-text">I am a Software Developer</h1>
-        </div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f02">
-          <h1 class="section-text">who loves cats</h1>
-        </div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f03">
-          <h1 class="section-text">Thank you for stopping by</h1>
-        </div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f04">
-          <h1 class="section-text">Check out my <a class="section-links" href="#">work</a></h1>
-        </div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f05">
-          <a target="_blank" href="https://www.linkedin.com/in/smgoldstein" class="btn btn-social-icon btn-lg btn-linkedin">
-              <span class="fa fa-linkedin"></span>
-            </a>
-        </div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f06">
-          <a target="_blank" href="https://github.com/stephanieg0" class="btn btn-social-icon btn-lg btn-github">
-              <span class="fa fa-github"></span>
-            </a>
-        </div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f07"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f08"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f09"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f00"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f01"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f02"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f03"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f04"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f05"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f06"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f07"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f08"></div>
-      </div>
-      <div class="section">
-        <div class="cat cat-f09"></div>
-      </div>
+    <!-- App content -->
+    <div ng-view></div>
+
+    <!-- dependencies -->
+    <script src="lib/bower_components/angular/angular.min.js"></script>
+    <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
+
+    <!-- js files -->
+    <script src="javascripts/app.js"></script>
 
   </body>
 </html>
