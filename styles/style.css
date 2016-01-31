@@ -48,45 +48,20 @@ body {
 }
 
 /*  technologies section */
-#technologies {
-  margin: 40px 20px 0 20px;
-  background-color: white;
-  box-shadow: 0 3px 5px gray;
-  height: 700px;
-}
-#logos {
-  margin: 0 20% 0 20%;
-}
-#javaScript-logo {
+.tech-logo-square {
   border-radius: 5px;
   width: 80px;
-  margin: 10px;
+  margin-top: 100px;
 }
-#javaScript-logo:hover {
+.tech-logo-rectangle {
   border-radius: 5px;
-  width: 90px;
+  width: 150px;
   margin: 10px;
+  margin-top: 100px;
 }
 
-#angularjs-logo {
-  width: 80px;
-  margin: 10px;
-}
-#angularjs-logo:hover {
-  width: 90px;
-  margin: 10px;
-}
 
-#jQuery-logo {
-  border-radius: 5px;
-  width: 200px;
-  margin: 10px;
-}
-#jQuery-logo:hover {
-  border-radius: 5px;
-  width: 210px;
-  margin: 10px;
-}
+
 #grunt-logo {
   width: 80px;
   margin: 10px;
@@ -96,34 +71,12 @@ body {
   margin: 10px;
 }
 
-#requirejs-logo {
-  width: 80px;
-  margin: 10px;
-}
-#requirejs-logo:hover {
-  width: 90px;
-  margin: 10px;
+.firebase-logo {
+  background-color: white;
+  padding: 20px;
+  width: 170px;
 }
 
-#nodejs-logo {
-  border-radius: 5px;
-  width: 200px;
-  margin: 10px;
-}
-#nodejs-logo:hover {
-  border-radius: 5px;
-  width: 210px;
-  margin: 10px;
-}
-
-#firebase-logo {
-  width: 200px;
-  margin: 10px;
-}
-#firebase-logo:hover {
-  width: 210px;
-  margin: 10px;
-}
 
 #bootstrap-logo {
   width: 80px;
@@ -182,14 +135,36 @@ padding: 0;
   margin: 0px auto;
   position: relative;
   line-height: 1.4em;
-  top: 130px;
-  font-size: 18px;
+  top: 120px;
+  font-size: 25px;
   color: black;
   /*color: #EDEDED;*/
 }
 .section-links {
   color: black;
   text-decoration: underline;
+}
+.btn-outline {
+  margin-top: 100px;
+  padding: 18px 24px;
+  font-size: inherit;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.5);
+  transition: all .1s ease-in-out
+}
+.btn-outline:hover{
+  padding: 18px 24px;
+  font-size: inherit;
+  font-weight: 500;
+  color: purple;
+  background-color: white;
+  border-color: rgba(255, 255, 255, 0.5);
+  transition: all .1s ease-in-out
+}
+.fa {
+  font-size: 20px;
 }
 .cat {
   width: 100%;
@@ -202,27 +177,27 @@ padding: 0;
 }
 .cat-f00 {
   background-image: url(./images/grumpyCat_f000.png);
-  background-color: #880E4F;
+  background-color: #00BCD4;
 }
 .cat-f01 {
   background-image: url(./images/grumpyCat_f001.png);
-  background-color: #AD1457;
+  background-color: #FFEE58;
 }
 .cat-f02 {
   background-image: url(./images/grumpyCat_f002.png);
-  background-color: #C2185B;
+  background-color: #F9A825;
 }
 .cat-f03 {
   background-image: url(./images/grumpyCat_f003.png);
-  background-color: #D81B60;
+  background-color: #512DA8;
 }
 .cat-f04 {
   background-image: url(./images/grumpyCat_f004.png);
-  background-color: #E91E63;
+  background-color: #AB47BC;
 }
 .cat-f05 {
   background-image: url(./images/grumpyCat_f005.png);
-  background-color: #EC407A;
+  background-color: #C2185B;
 }
 .cat-f06 {
   background-image: url(./images/grumpyCat_f006.png);
@@ -230,15 +205,15 @@ padding: 0;
 }
 .cat-f07 {
   background-image: url(./images/grumpyCat_f007.png);
-  background-color: #FF80AB;
+  background-color: #8BC34A;
 }
 .cat-f08 {
   background-image: url(./images/grumpyCat_f008.png);
-  background-color: #F50057;
+  background-color: #33691E;
 }
 .cat-f09 {
   background-image: url(./images/grumpyCat_f009.png);
-  background-color: #C51162;
+  background-color: #4DD0E1;
 }
 
 /*Work Section*/
