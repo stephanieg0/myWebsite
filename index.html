@@ -25,11 +25,12 @@
         </button>
         <a class="navbar-brand stephanie-goldstein" href="/#/codebyStephanie/home">Stephanie Goldstein</a>
       </div>
+
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="nav-links" href="#">About</a></li>
-            <li><a class="nav-links" href="/#/codebyStephanie/work">Work</a></li>
+            <li><a class="nav-links dropdown" href="#">About</a></li>
+            <li><a class="nav-links dropdown" href="/#/codebyStephanie/work">Work</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -39,6 +40,7 @@
     <div ng-view></div>
 
     <!-- dependencies -->
+    <script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="lib/bower_components/angular/angular.min.js"></script>
     <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
 

@@ -3,21 +3,23 @@ html {
   padding: 0;
 }
 body {
- background-color: #E8E8E8;
  margin: 0;
  padding: 0;
 }
 /*  Nav bar section */
 .navbar-default {
   margin: 0;
+  border-radius: 0px;
 }
 .nav-links {
   font-size: 18px;
 }
 .stephanie-goldstein {
-  margin: 0;
+  margin-left: 30px;
+  /*margin: 0;*/
   font-size: 25px;
 }
+.navbar-collapse.collapse.in { display: block !important; }
 
 /* About me section */
 #about-me {
@@ -43,11 +45,8 @@ body {
   text-align: justify;
   line-height: 1.4;
 }
-#social-links {
-  float: right;
-}
 
-/*  technologies section */
+/*  Home section */
 .tech-logo-square {
   border-radius: 5px;
   width: 80px;
@@ -61,16 +60,6 @@ body {
 }
 
 
-
-#grunt-logo {
-  width: 80px;
-  margin: 10px;
-}
-#grunt-logo:hover {
-  width: 90px;
-  margin: 10px;
-}
-
 .firebase-logo {
   background-color: white;
   padding: 20px;
@@ -78,23 +67,6 @@ body {
 }
 
 
-#bootstrap-logo {
-  width: 80px;
-  margin: 10px;
-}
-#bootstrap-logo:hover {
-  width: 90px;
-  margin: 10px;
-}
-
-#handlebars-logo {
-  width: 80px;
-  margin: 10px;
-}
-#handlebars-logo:hover {
-  width: 90px;
-  margin: 10px;
-}
 /*  projects section  */
 #projects {
   padding: 0;
@@ -115,11 +87,6 @@ body {
 }
 
 /*Home section*/
-p {
-  text-align: center;
-  color: gray;
-  padding: 20px 0 20px 0;
-}
 .container-fluid {
 padding: 0;
 }
@@ -138,8 +105,8 @@ padding: 0;
   top: 120px;
   font-size: 25px;
   color: black;
-  /*color: #EDEDED;*/
 }
+
 .section-links {
   color: black;
   text-decoration: underline;
