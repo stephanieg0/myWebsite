@@ -5,6 +5,9 @@
     <!--bootstrap link-->
     <link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap-social/bootstrap-social.css">
+    <!--google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
     <!--font awesome -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- my css -->
@@ -30,7 +33,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li><a class="nav-links dropdown" href="#">About</a></li>
-            <li><a class="nav-links dropdown" href="/#/codebyStephanie/work">Work</a></li>
+            <li><a id="work-link" class="nav-links dropdown" href="/#/codebyStephanie/work">Work</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -40,7 +43,6 @@
     <div ng-view></div>
 
     <!-- dependencies -->
-    <script src="lib/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="lib/bower_components/angular/angular.min.js"></script>
     <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
 
