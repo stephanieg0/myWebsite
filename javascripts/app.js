@@ -9,6 +9,9 @@ app.config(["$routeProvider", function ($routeProvider){
     when('/codebyStephanie/work', {
       templateUrl: '/partials/work.html'
     }).
+    when('/codebyStephanie/about', {
+      templateUrl: '/partials/about.html'
+    }).
     otherwise('/codebyStephanie/home');
 
 

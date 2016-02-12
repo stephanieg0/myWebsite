@@ -8,7 +8,7 @@ body {
  font-family: 'Lato', sans-serif;
 }
 /*  Nav bar section */
-.navbar-default {
+.navbar-inverse {
   margin: 0;
   border-radius: 0px;
 }
@@ -18,39 +18,50 @@ body {
 #work-link {
   margin-right: 25px;
 }
-.stephanie-goldstein {
+#stephanie-goldstein {
   margin-left: 30px;
-  /*margin: 0;*/
   font-size: 25px;
 }
-.navbar-collapse.collapse.in { display: block !important; }
+/*.navbar-collapse.collapse.in { display: block !important; }*/
 
 /* About me section */
-#about-me {
-  padding: 30px;
-  margin: 40px 20px 0 20px;
-  background-color: white;
-  box-shadow: 0 3px 5px gray;
-  min-height: 700px;
+.col-sm-6 {
+  padding: 0;
+}
+#photo-container {
+  background-color: black;
 }
 #photo {
-  float: left;
-  margin-bottom: 20px;
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  border: 10px solid #BDBDBD;
-  box-shadow: 0 3px 3px gray;
-}
-#bio h4 {
   margin: 0;
-  padding: 0;
-  float: right;
+  height: 450px;
+  width: 450px;
+}
+#bio-container {
+  margin: 0;
+  padding: 35px;
+  background-color: #303F9F;
+  /*#3F51B5*/
+  height: 450px;
   text-align: justify;
   line-height: 1.4;
+  color: white;
+}
+#bio {
+  text-align: justify;
+  line-height: 1.4;
+  color: white;
+}
+#social-links {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.block {
+  background-color: #FF4081;
+  height: 300px;
 }
 
-/*  Home section */
+/*****  HOME SECTION  *****/
 .tech-logo-square {
   border-radius: 5px;
   width: 80px;
@@ -68,7 +79,6 @@ body {
   width: 170px;
 }
 
-/*Home section*/
 .container-fluid {
 padding: 0;
 }
@@ -166,6 +176,26 @@ padding: 0;
 }
 
 /*Work Section*/
+.tech-logos-worksection{
+  margin: 0;
+  padding: 0;
+}
+.tech-logo-square-worksection {
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  width: 40px;
+}
+.firebase-logo-worksection {
+  background-color: white;
+  padding: 8px;
+  width: 130px;
+  border-radius: 3px;
+}
+.ionic-logo-worksection {
+  width: 80px;
+  border-radius: 3px;
+}
 .content-project {
   min-height: 600px;
   background-color: white;
@@ -175,10 +205,12 @@ padding: 0;
   text-align: center;
   padding-top: 80px;
   font-size: 50px;
+  color: white;
 }
 .content-description {
   text-align: center;
   margin: 25px 0;
+  color: white;
 }
 .demo-link {
   padding: 5px 54px;
@@ -202,7 +234,11 @@ padding: 0;
 }
 .ionic-capstone {
   min-height: 300px;
-  background-color: #1990E6;
+  background-color: #FF5252;
+}
+.video-container {
+  background: url(./images/iphone_white.png) center no-repeat;
+  background-size: 270px;
 }
 .instaRoute {
   min-height: 300px;
