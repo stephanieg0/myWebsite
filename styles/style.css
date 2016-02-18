@@ -25,31 +25,44 @@ body {
 /*.navbar-collapse.collapse.in { display: block !important; }*/
 
 /* About me section */
-.col-sm-6 {
+.col-sm-12 {
   padding: 0;
 }
-#photo-container {
-  background-color: black;
+.about-container {
+  /* top, transparent black, faked with gradient */
+  background:linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ), url(./images/monterreyMxPhoto.jpeg);
+  background-size: 1450px;
+  background-repeat: no-repeat;
+/*  min-height: 350px;
+  width: 100%;*/
 }
-#photo {
+.about-container h1{
+  color: white;
+  text-align: center;
+  font-weight: 700;
   margin: 0;
-  height: 450px;
-  width: 450px;
+  padding-top: 20px;
+}
+#photo-container {
+  margin-left: 42%;
+  margin-top: 20px;
+}
+.photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 #bio-container {
-  margin: 0;
-  padding: 35px;
-  background-color: #303F9F;
-  /*#3F51B5*/
-  height: 540px;
-  text-align: justify;
-  line-height: 1.4;
-  color: white;
+  padding: 10px 45px 20px 45px;
 }
 #bio {
   text-align: justify;
   line-height: 1.4;
   color: white;
+  font-size: 20px;
 }
 #social-links {
   padding: 20px;
@@ -57,7 +70,7 @@ body {
   text-align: center;
 }
 .block {
-  background-color: #FF4081;
+  background-color: #AD1457;
   height: 300px;
 }
 
