@@ -25,20 +25,15 @@ body {
 /*.navbar-collapse.collapse.in { display: block !important; }*/
 
 /* About me section */
-.col-sm-12 {
-  padding: 0;
-}
 .about-container {
-  /* top, transparent black, faked with gradient */
   background:linear-gradient(
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)
   ), url(./images/monterreyMxPhoto.jpeg);
   background-size: 1450px;
   background-repeat: no-repeat;
-/*  min-height: 350px;
-  width: 100%;*/
 }
+
 .about-container h1{
   color: white;
   text-align: center;
@@ -57,23 +52,31 @@ body {
 }
 #bio-container {
   padding: 10px 45px 20px 45px;
+  width: 100%;
 }
 #bio {
   text-align: justify;
   line-height: 1.4;
   color: white;
   font-size: 20px;
+  margin: 0 20%;
+  font-weight: 400;
+}
+
+.block {
+  background-color: #AD1457;
+  height: 300px;
 }
 #social-links {
   padding: 20px;
   color: white;
   text-align: center;
 }
-.block {
-  background-color: #AD1457;
-  height: 300px;
-}
 
+#social-links h2 {
+  margin-bottom: 40px;
+  font-weight: 700;
+}
 /*****  HOME SECTION  *****/
 .tech-logo-square {
   border-radius: 5px;
