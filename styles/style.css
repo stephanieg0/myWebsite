@@ -19,11 +19,43 @@ body {
   padding: 20px 15px;
 }
 #stephanie-goldstein {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
 }
 .navbar-brand {
   padding: 20px 15px;
+}
+/** ABOUT **/
+.about {
+  width: 100%;
+  height: 100%;
+  min-height: 900px;
+  background-color: #191919;
+}
+.black-container {
+  height: 850px;
+  background-color: black;
+  margin: 30px 5%;
+}
+.photo {
+  height: 50%;
+}
+.about-description {
+  font-family: 'Lato', sans-serif;
+  padding: 30px;
+  text-align: justify;
+  line-height: 20px;
+}
+.contact-info {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.contact-info-container {
+  margin-bottom: 60px;
+}
+.links-contact {
+  margin: 50px 0;
 }
 
 /* HOME */
@@ -55,7 +87,6 @@ body {
   min-height: 900px;
   background-image: url(./images/instaRoute-login.png);
   background-color: #191919;
-/*  background-attachment: fixed;*/
   background-repeat: no-repeat;
   background-size: auto 50%;
   background-position: 50% 40%;
@@ -87,7 +118,7 @@ body {
   display: inline;
 }
 .button-link {
-  padding: 7px 54px;
+  padding: 7px 5px;
   text-decoration: none;
   font-size: 18px;
   color: white;
@@ -97,7 +128,7 @@ body {
   transition: all .1s ease-in-out
 }
 .button-link:hover {
-  padding: 7px 54px;
+  padding: 7px 5px;
   text-decoration: none;
   font-size: 18px;
   color: #8A074F;
@@ -115,7 +146,7 @@ body {
   height: 485px;
 }
 
-/** LOGOS IN HOME **/
+/** LOGOS**/
 .tech-logos-worksection {
   margin: 30px 0;
 }
@@ -136,51 +167,34 @@ body {
   border-radius: 3px;
 }
 
-/** ABOUT **/
-
-.about {
-  width: 100%;
-  height: 100%;
-  min-height: 900px;
-  background-color: #191919;
-}
-.black-container {
-  width: 850px;
-  height: 450px;
-  background-color: black;
-  margin: 30px 15%;
-}
-.photo {
-  float: left;
-  height: 100%;
-}
-.about-description {
-  font-family: 'Lato', sans-serif;
-  padding: 45px 45px 45px 345px;
-  text-align: justify;
-  line-height: 20px;
-}
-.contact-info {
-  color: white;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
-.contact-info-container {
-  margin-bottom: 60px;
-}
-.links-contact {
-  margin: 50px 0;
-}
-#social-links {
-  padding: 20px;
-  color: white;
-  text-align: center;
+@media (min-width: 600px) {
+  #stephanie-goldstein {
+    font-size: 20px;
+  }
+  .black-container {
+    width: 850px;
+    height: 450px;
+    background-color: black;
+    margin: 30px 15%;
+  }
+  .photo {
+    float: left;
+    height: 100%;
+  }
+  .about-description {
+    padding: 45px 45px 45px 345px;
+  }
+  .button-link {
+    padding: 7px 54px;
+  }
+  .button-link:hover {
+    padding: 7px 54px;
+  }
+  .contact-info {
+    font-size: 24px;
+  }
 }
 
-#social-links h2 {
-  margin-bottom: 40px;
-  font-weight: 700;
-}
 
 
 
