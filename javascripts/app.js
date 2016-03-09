@@ -3,16 +3,10 @@ var app = angular.module("codebyStephanie", ["ngRoute"]);
 app.config(["$routeProvider", function ($routeProvider){
 
   $routeProvider.
-    when('/codebyStephanie/home', {
+    when('/', {
       templateUrl: '/partials/home.html'
     }).
-    when('/codebyStephanie/work', {
-      templateUrl: '/partials/work.html'
-    }).
-    when('/codebyStephanie/vfx', {
-      templateUrl: '/partials/vfx.html'
-    }).
-    otherwise('/codebyStephanie/home');
+    otherwise('/');
 
 
 
