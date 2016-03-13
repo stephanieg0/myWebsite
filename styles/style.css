@@ -43,7 +43,7 @@ body {
 .about-description {
   font-family: 'Lato', sans-serif;
   padding: 30px;
-  text-align: justify;
+  text-align: left;
   line-height: 20px;
 }
 .contact-info {
@@ -190,7 +190,7 @@ body {
   border-radius: 3px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 670px) {
   #stephanie-goldstein {
     font-size: 20px;
   }
@@ -230,12 +230,11 @@ body {
 }
 
 
-@media (min-width: 800px) {
+@media (min-width: 975px) {
   #stephanie-goldstein {
     font-size: 20px;
   }
   .black-container {
-    width: 850px;
     height: 450px;
     background-color: black;
     margin: 30px 15%;
